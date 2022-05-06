@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: blanchedalmond;
+  font-size: 1.5em;
+}
+ nav a{
+
+    padding: 10px;
+    border: 1px solid red;
+}
+
+div {
+    background: salmon;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+  }
+  a {
+    background: skyblue;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+  }
+  button {
+    font-size: 1.5em;
+    background: slateblue;
+    width: 200px;
+    height: 200px;
+  }

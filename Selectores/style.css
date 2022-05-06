@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+
+body{
+    background-color: blanchedalmond;
+}
+
+
+.franjanegra{
+    background-color: black;
+}
+.franjaNegraSubContainer{
+    background-color: black;
+    color: white;
+    position:relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+section{
+    border:1px solid white;
+    border-radius: 1em;
+    width: fit-content;
+    padding: 2em;
+}
+
+
+section ul{
+    padding-left: 1em;
+}
+
+li{
+list-style: none;
+}
+
+.cuerpo{
+    font-size: 3em;
+}
+p{
+    color: salmon;
+}
+p:hover{
+    color:skyblue;
+}
+
+div p:nth-child(2){
+    color: violet;
+}
+ul{font-size: 1em;}
+/* Pseudoelementos: */
+p::first-letter{
+    color:teal;
+}
+/* que el contenido adelante tenga unas estrellitas: */
+p::before{
+    content: "⚜⚜";
+}
+
+p::after{
+    content:"🚌";
+}
