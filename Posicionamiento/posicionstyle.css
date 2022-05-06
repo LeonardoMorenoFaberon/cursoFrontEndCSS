@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    color: var(--color_marronoso);
+}
+:root{
+    --height_container:150px;
+    --height_items:100px;
+
+    --color_banquillo:#F6E7D8;
+    --color_naranjoso:#F68989;
+    --color_ladrilloso:#C65D7B;
+    --color_marronoso:#5c2232;
+}
+body{
+    background-color: var(--color_ladrilloso);
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: #F68989;
+    position: relative;
+    top: 20px;
+}
+.item{
+
+}
