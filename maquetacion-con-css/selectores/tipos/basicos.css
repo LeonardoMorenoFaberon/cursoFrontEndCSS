@@ -1,0 +1,30 @@
+/* SELECTORES BÁSICOS */
+
+/* de etiqueta */
+div{
+    background-color: rgb(119, 163, 239);
+    color: white;
+}
+
+/* de clase */
+.diferente{
+    color: rgb(255, 255, 0);
+}
+
+/* de id */
+#unico{
+    color: rgb(255, 0, 0);
+}
+
+/* de atributo */
+a[href="https://platzi.com/home"]{
+    color: rgb(0, 255, 0);
+}
+
+/* universal */
+*{
+    font-size: 20px;
+    font-family: 'Ubuntu';
+}
+
+
