@@ -1,0 +1,17 @@
+.padre{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, 200px );
+    width: 100%;
+    height: auto;
+    border:1px solid red;
+    padding: 20px;
+}
+
+.hijo{
+    background-color: aquamarine;
+    border: 1px solid green;
+    margin: 3px;
+    width: 200px;
+    height: 200px;
+}
+

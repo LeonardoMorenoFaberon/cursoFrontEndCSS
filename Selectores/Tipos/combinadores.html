@@ -9,8 +9,54 @@
     
 </head>
 <body>
+    <header>
+        <nav>
+            <h1>Selectores Combinadores:</h1>
+        </nav>
+    </header>
     <!-- <img src="./img/combinadores.png" alt=""> -->
-<div class="papa"> 
+<main>
+    <h2>antes de pasar a los conbinadores seria bueno aclar nth-child() para luego usarlo con conbinadores</h2>
+<section>
+    <article class="codigo">
+        .papa p:nth-child(3n){<br>
+            &nbsp;&nbsp;   color: var(--color_banquillo);<br>
+            &nbsp;&nbsp;   background-color: #5c2232;<br>
+           } <br>
+    </article>
+</section>
+<div class="papa contenedor"> 
+    <!-- <div>div</div>  -->
+    <!-- <div>div</div> -->
+    <div>div</div>
+    <div>div</div> 
+    <div >div</div>
+    <div >div</div>
+    <p >p</p>
+    <p >p</p>
+    <p >p</p>
+    <p >p</p>
+    <p >p</p>
+    <p >p</p>
+    <p >p</p>
+    <p >p</p>
+</div><div class="papa contenedor"> 
+    <!-- <div>div</div>  -->
+    <div>div</div>
+    <div>div</div>
+    <div>div</div> 
+    <div >div</div>
+    <div >div</div>
+    <p >p</p>
+    <p >p</p>
+    <p >p</p>
+    <p >p</p>
+    <p >p</p>
+    <p >p</p>
+    <p >p</p>
+    <p >p</p>
+</div>
+<div class="papa contenedor"> 
     <div>div</div> 
     <div>div</div>
     <div>div</div>
@@ -26,8 +72,48 @@
     <p >p</p>
     <p >p</p>
 </div>
-
-:nth-child(4n+5)
-cada 4 elementos pero dejando 5 
+    <section>
+            <article class="codigo">
+                .papa2 p:nth-child(4n){ <br>
+                    &nbsp;&nbsp;color: rebeccapurple ;<br>
+                    &nbsp;&nbsp;background-color: red ;<br>
+            }<br> aca solo hay dos divs antes de las "p" por lo tanto 
+            </article>
+        
+    </section>
+    <div class="papa2 contenedor"> 
+  
+        <div>div</div> 
+        <div >div</div>
+        <p >p</p>
+        <p >p</p>
+        <p >p</p>
+        <p >p</p>
+        <p >p</p>
+        <p >p</p>
+        <p >p</p>
+        <p >p</p>
+    </div>
+    
+    <div class="papa3 contenedor"> 
+  
+        <div>div</div> 
+        <div >div</div>
+        <p >p</p>
+        <p >p</p>
+        <p >p</p>
+        <p >p</p>
+        <p >p</p>
+        <p >p</p>
+        <p >p</p>
+        <p >p</p>
+    </div>
+    
+    <div>
+        :nth-child(4n+5) <br>
+        cada 4 elementos pero dejando 5 
+    </div>
+</main>
+    
 </body>
 </html>
