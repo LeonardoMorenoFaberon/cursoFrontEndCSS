@@ -1,0 +1,17 @@
+/* Pseudo-Clases */
+/* :active, :focus, :hover, :nth-child() */
+.verde:active{
+    color: green;
+}
+
+.input-rojo:focus{
+    color: red;
+}
+
+section p:hover{
+    color: teal;
+}
+
+div li:nth-child(2){
+    color: violet;
+}

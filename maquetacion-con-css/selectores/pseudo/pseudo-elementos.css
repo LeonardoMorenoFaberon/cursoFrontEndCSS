@@ -1,0 +1,17 @@
+/* Pseudo-Elementos */
+/* ::after, ::before, ::first-letter, ::placeholder */
+li::first-letter{
+    color: rgb(0, 157, 255);
+}
+
+article p::before{
+    content: "🔥 ";
+}
+
+li::after{
+    content: " 🦏";
+}
+
+::placeholder{
+    color: slateblue;
+}
