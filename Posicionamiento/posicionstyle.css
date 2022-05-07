@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 *{
     margin:0;
     padding: 0;
@@ -18,12 +20,48 @@ body{
 }
 
 .container{
-    width: 200px;
-    height: 200px;
+    width: 600px;
+    height: 600px;
     background-color: #F68989;
     position: relative;
     top: 20px;
+    left:30px;
 }
 .item{
+    border: 1px solid  var(--color_ladrilloso);
+    width: 150px;
+    height: 150px;
+    background-color: var(--color_banquillo);
+}
+.uno{
+    position: absolute;
+    right: 0;
+    }
+.dos{
+    position: relative;
+}
 
+nav{
+    width: 100%;
+    height: fit-content;
+    background-color: var(--color_marronoso);
+    color: var(--color_banquillo);
+    position:fixed;
+    bottom: 200px;  
+    top:150px; 
+    padding-left: 25%;
+    /* como top es la ultima prop declarada ya ignora a  bottom  */
+}
+.letraClara{
+    color: var(--color_banquillo);
+}
+
+ul p{
+    position: sticky;
+    top: 0;
+    color: blanchedalmond;
+    font-size: 2em;
+}
+ul li{
+    font-size: 2em;
 }

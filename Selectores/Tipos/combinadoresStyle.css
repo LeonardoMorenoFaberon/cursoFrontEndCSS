@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: poppins;
+    background-color: var(--color_ladrilloso);
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    color: var(--color_marronoso);
+}
+:root{
+    --height_container:150px;
+    --height_items:100px;
+    --color_banquillo:#F6E7D8;
+    --color_naranjoso:#F68989;
+    --color_ladrilloso:#C65D7B;
+    --color_marronoso:#5c2232;
+}
+
+.papa div{
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--color_naranjoso);
+    position: relative;
+    left: 200px;
+    background-color: #F68989;
+    display: inline-block;
+}
+
+.papa p{
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--color_banquillo);
+    position: relative;
+    left: 200px;
+    background-color: #F68989;
+    display: inline-block;
+}
+
+/* cada 3 elementos 3n pero despues de ahi a todos  */
+/* p:nth-child(2n) ~ p{
+    background-color: #5c2232;
+} */
+
+/* .papa p:nth-child(3n) ,.papa div:nth-child(3n)  */
+/* busca la tercera posicion y si es p le aplicas */
+
+
+ p:nth-child(3n){
+    color: green;
+    background-color: #5c2232;
+} 
+
+.papa p:nth-child(3n) , .papa div:nth-child(3n)  {
+    color: var(--color_banquillo);
+    background-color: #5c2232;
+}
