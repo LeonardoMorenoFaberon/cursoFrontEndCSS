@@ -1,0 +1,85 @@
+.containerA{
+    display: flex;
+    background: lightcoral;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+}
+
+.containerB{
+    display: flex;
+    background: lightcoral;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    flex-direction: column;
+}
+
+.containerC{
+    display: flex;
+    background: lightcoral;
+    justify-content: center;
+    align-items: flex-start;
+    height: 200px;
+    width: 200px;
+    flex-direction: column;
+}
+
+.containerD{
+    display: flex;
+    background: lightcoral;
+    justify-content: center;
+    align-items: flex-end;
+    height: 200px;
+    width: 200px;
+    flex-direction: column;
+}
+
+.container1{
+    display: flex;
+    background: lightcoral;
+    justify-content: center;
+}
+
+.container2{
+    display: flex;
+    background: lightcoral;
+    justify-content: flex-start;
+}
+
+.container3{
+    display: flex;
+    background: lightcoral;
+    justify-content: flex-end;
+}
+
+.container4{
+    display: flex;
+    background: lightcoral;
+    justify-content: space-around;
+}
+
+.container5{
+    display: flex;
+    background: lightcoral;
+    justify-content: space-evenly;
+}
+
+.container6{
+    display: flex;
+    background: lightcoral;
+    justify-content: space-between;
+}
+
+/* para aplicarles color a los elementos impares */
+.caja .item:nth-child(2n + 1){
+    background: lightslategray;
+}
+
+.item{
+    width: 30px;
+    height: 30px;
+    background: lightgreen;
+}

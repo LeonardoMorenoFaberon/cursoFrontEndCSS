@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores Combinadores</title>
+    <link rel="stylesheet" href="./combinadores.css">
+</head>
+<body>
+    <!-- todos los <p> que esten dentro de <section> tomaran el estilo de "descendientes" -->
+    <section>
+        <h2>Descendientes</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, veniam.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, veniam.</p>
+    </section>
+
+    <hr>
+
+    <div>
+        <h2>Hijo directo</h2>
+        <span>Span #1, dentro del div (hijo directo #1).
+            <span>Span #2, dentro del span que está dentro del div.</span>
+        </span>
+        <span>Span #3, fuera del span pero dentro del div (hijo directo #2).</span>
+      </div>
+      <span>Span #4, no está dentro del div.</span>
+      
+      <hr>
+
+      <div>
+          <h2>Elemento adyacente</h2>
+        <article>
+            <p>Article contenedor - Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aspernatur?</p>
+      </article>
+      <section>
+        <p>Seccion #1 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aspernatur?</p>
+    </section>
+      <article>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, harum!</p>
+        </article>
+      <section>
+          <p>Seccion #1 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aspernatur?</p>
+      </section>
+      <section>
+        <p>Seccion #2 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aspernatur?</p>
+    </section>
+      </div>
+
+      <hr>
+
+      <div>
+          <h2>General de hermanos</h2>
+          <h3>H3 hermano de h4</h3>
+          <h4>H4 hermano de h3 #1</h4>
+          <h4>H4 hermano de h3 #2</h4>
+          <h4>H4 hermano de h3 #1</h4>
+          <h4>H4 hermano de h3 #2</h4>
+          <h4>H4 hermano de h3 #1</h4>
+          <h4>H4 hermano de h3 #2</h4>
+          <h4>H4 hermano de h3 #1</h4>
+          <h4>H4 hermano de h3 #2</h4>
+          <h4>H4 hermano de h3 #1</h4>
+          <h4>H4 hermano de h3 #2</h4>
+      </div>
+</body>
+</html>
