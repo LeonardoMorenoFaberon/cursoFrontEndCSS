@@ -1,14 +1,20 @@
-# Git workflow
+# Git y Github
 
-1. Crear un repositorio 
-2. Compartir el repositorio con su team en el repositorio y darle privilegios[documentación](https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository)
-3. El team tiene que clonar el repositorio por medio de https: ``git clone repositorio``
-4. Entra al directorio clonado `` d cursoFrontEndCSS ``
-5. Añadimos la ruta remota por medio de upstream `` git remote add upstream git@github.com:LeonardoMorenoFaberon/cursoFrontEndCSS.git``
-6. `` git remote -v ``
-7. `` git pull ``
-8. `` git checkout "nombre de la rama" ``
-9. Haces tus cambios en la ramas o podes crearte una rama `` git checkout -b 'new-branch' ``
-10. `` git add .``
-11. `` git commit -m "Amo git" ``
-12. `` git push upstream "nombre de la rama"``
+## básico 
+1.  `` git add .``
+2.  `` git commit -m "Amo git" ``
+3.  `` git status``
+
+## Como trabajar en equipo con git y git
+1. Una vez tengamos un repositorio creado en gitHub lo vamos a compartir y asignar los privilegios necesarios a cada persona del equipo [Aquí puedes ver como](https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository)
+2. cada miembro del equipo tiene que clonar el repositorio en sus computadoras por medio de https: ``git clone repositorio``
+3. Una vez estemos dentro de del directorio del proyecto y hallamos hechos nuestros cambios añadimos la ruta remota por medio de upstream `` git remote add upstream git@github.com:LeonardoMorenoFaberon/cursoFrontEndCSS.git``
+4. Verificamos si la ruta de agrego correctamente con `` git remote -v ``
+5. `` git pull `` para traernos los últimos cambios 
+6. `` git push upstream "nombre de la rama"`` para subir nuestros cambios al repositorio
+
+## Ramas
+1. Para cambiarnos de una rama a otra usamos `` git checkout "nombre de la rama" ``
+2. Con `` git checkout -b 'new-branch' `` creamos una nueva rama
+
+
