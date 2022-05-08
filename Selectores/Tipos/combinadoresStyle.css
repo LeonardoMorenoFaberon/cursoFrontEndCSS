@@ -17,17 +17,17 @@ body{
     --color_marronoso:#5c2232;
 }
 
-.papa div{
+.contenedor div{
     width: 50px;
     height: 50px;
     border: 1px solid var(--color_naranjoso);
     position: relative;
     left: 200px;
     background-color: #F68989;
-    display: inline-block;
+    display: inline-block;    
 }
 
-.papa p{
+.contenedor p{
     width: 50px;
     height: 50px;
     border: 1px solid var(--color_banquillo);
@@ -37,21 +37,30 @@ body{
     display: inline-block;
 }
 
-/* cada 3 elementos 3n pero despues de ahi a todos  */
-/* p:nth-child(2n) ~ p{
-    background-color: #5c2232;
-} */
-
-/* .papa p:nth-child(3n) ,.papa div:nth-child(3n)  */
-/* busca la tercera posicion y si es p le aplicas */
-
-
- p:nth-child(3n){
-    color: green;
-    background-color: #5c2232;
+.papa p:nth-child(3n){
+    color: var(--color_banquillo);
+    background-color: var(--color_marronoso);
 } 
 
-.papa p:nth-child(3n) , .papa div:nth-child(3n)  {
-    color: var(--color_banquillo);
-    background-color: #5c2232;
+/* ............................. */
+/* ............................. */
+/* ............................. */
+/* ............................. */
+.papa2 p:nth-child(4n){
+    color: rebeccapurple ;
+    background-color: red ;
 }
+h1{
+    background-color: var(--color_marronoso);
+    color: var(--color_banquillo);
+}
+section{
+    color: var(--color_banquillo);
+    font-size: 1.2em;
+}
+
+/* ............................. */
+/* ............................. */
+/* ............................. */
+/* ............................. */
+
