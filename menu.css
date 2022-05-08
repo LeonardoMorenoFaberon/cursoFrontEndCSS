@@ -23,17 +23,17 @@ ul{
     display: flex;
     flex-direction: column;
 }
+
 li{
     width: 200px;
     list-style: none;
     /* display: inline-block; */
     margin: 10px;
-    padding: 5px 7px;
+
     border:1px solid white;
     border-radius: 7px;
     background-color: salmon;
 }
-
 
 li:hover{
     /* display: inline-block;
@@ -43,6 +43,11 @@ li:hover{
     border-radius: 7px; */
     background-color: rgb(235, 88, 72);
 }
+
+li p {
+  padding: 5px 7px;
+}
+
 a{
     margin-top: 20px;
     color: white;
