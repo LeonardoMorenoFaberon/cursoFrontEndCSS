@@ -1,0 +1,46 @@
+.contenedor{
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    place-content: center;
+    gap: 10px   ;
+    grid-template-areas:
+    "uno dos dos"
+    "tres tres cuatro"
+    "cinco seis siete";
+}
+.item{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 5px;
+}
+.item-1{
+    background-color: #8b6db3a2;
+    grid-area: uno;
+}
+.item-2{
+    background-color: #3bb01d;
+    grid-area: dos; 
+}
+.item-3{
+    background-color: #7066fc54;
+    grid-area: tres;
+}
+.item-4{
+    background-color: #8b6db3a2;
+    grid-area: cuatro;
+}
+.item-5{
+    background-color: #8b6db3a2;
+    grid-area: cinco;
+}
+.item-6{
+    background-color: #3bb01d;
+    grid-area: seis; 
+}
+.item-7{
+    background-color: #7066fc54;
+    grid-area: siete;
+}

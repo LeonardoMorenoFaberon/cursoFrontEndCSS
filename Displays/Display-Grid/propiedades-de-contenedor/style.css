@@ -1,0 +1,16 @@
+.contenedor{
+    border: 5px solid #97383856;
+    background-color: #f3be92;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-columns: 100px;
+    grid-auto-flow: column;
+    gap: 40px;
+}
+
+.item{
+    border: 5px solid #4f576d73;
+    font-size: 5rem;
+    text-align: center;
+    color: rgba(155, 70, 31, 0.281);
+}
