@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    color: var(--color_marronoso);
+}
+
+:root{
+    --height_container:150px;
+    --height_items:100px;
+
+    --color_banquillo:#F6E7D8;
+    --color_naranjoso:#F68989;
+    --color_ladrilloso:#C65D7B;
+    --color_marronoso:#5c2232;
+}
+
+html{
+    /* font-size: 10px; */
+    font-size: 62.5%;
+}
+
+body{
+    background-color: var(--color_ladrilloso);
+    font-size: 1.2rem;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color_banquillo);
+}
+
+p{
+    font-size: 1.5rem;
+}
+.section1{
+    padding-top: 10%;
+}
+.section1 , .section2{
+    margin-left: 10%;
+}
+
+
+.section3{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 200px;
+    height: 100%;
+    background-color:  var(--color_naranjoso);
+    padding-top: 10%;
+    font-size: large;
+}
+.marcador1{
+    color: var(--color_banquillo);
+    font-size: 2rem;
+}
