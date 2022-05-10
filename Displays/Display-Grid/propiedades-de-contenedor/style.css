@@ -14,3 +14,19 @@
     text-align: center;
     color: rgba(155, 70, 31, 0.281);
 }
+
+
+/* .....voy a usar flex para explicar grid con sus disculpas pretendo que leamos del html directamente. */
+
+#explicacion{
+    display: flex;
+    flex-direction:row;
+    border:1px solid rgba(155, 70, 31, 0.281);;
+    justify-content: space-evenly;
+}
+
+#explicacion div{
+    font-size: 1.2rem;
+    border: 5px solid rgba(155, 70, 31, 0.281);;
+    
+}
