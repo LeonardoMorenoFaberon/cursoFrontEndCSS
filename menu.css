@@ -45,6 +45,7 @@ body{
     grid-gap: 2rem;
     justify-items: center;
     margin-bottom: 10rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .item a{
     width: 28rem;
@@ -74,14 +75,6 @@ li{
     border-radius: 7px; */
     background-color: rgb(235, 88, 72);
 }
-@media (min-width: 600px) {
-    .items--list{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-@media (min-width: 900px) {
-    .items--list { grid-template-columns: repeat(3, 1fr); }
-  }
 .footer-section{
     width: 100%;
     font-size: 1.8rem;
