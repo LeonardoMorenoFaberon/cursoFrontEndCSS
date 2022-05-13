@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;}
+
+    body{
+        background: blanchedalmond;
+    }
+
+    .ulencabezado{
+        display: flex;
+        flex-direction: row;
+        border: 1px solid red;
+        justify-content: space-between;
+        }
+
+    li{
+        list-style: none;
+        width: auto;
+        border: 1px solid green;
+        /* align-content: space-around; */
+    }
+
+
+
+    /* *************************************** */
+    .brd1pxsolidgreen{
+        border:1px solid green;
+    }
+
+    .display_none{
+        display: none;
+    }
+
+    .visibility_visible{
+        visibility: visible;
+    }    
+
+    .visibility_hidden{
+        visibility: hidden;
+        
+    }
+    /* *************************************** */
+    
+    .conteiner{
+        border:1px solid green;
+        display: flex;
+        padding: 10px;
+        width: fit-content;
+    }
+    .margin60{
+        margin:60px;
+    }
+    .height50px{
+        height:50px;
+    }
+    .heigth360{
+        height: 360;
+    }
+    .displayFlex{
+        display: flex;
+        justify-content: space-around;
+    }
+    .justify-content-flex_start{
+        justify-content: flex-start
+    }
+    .justify-content-flex_end{
+        justify-content: flex-end
+    }
+    .flex-direction-row{
+        flex-direction: row;
+    }
+    .flex-direction-column{
+        flex-direction: column;
+    }
+    .w50{
+        width: 50px;
+    }
+    .h40{
+        height: 20px;
+    }
+
+    .b_red{
+        border:1px solid red;
+    }
+
+
+    /*
+     emresaltado
+
+     */
+     .emresaltado{font-size: 1.5em;}
+     .m-l10{margin-left: 10px;}
+     .m-l30{margin-left: 30px;}
+     .ul_vertical{
+         display: flex;
+         justify-content: column;
+         flex-direction: column;
+         }
+     .li_vertical{
+         margin-left: 10px;
+         width: 80%;
+     }    
+
+     .cajaAlCentro{
+         margin:0 auto 0 auto;
+         left: 200px;
+         width: 500px;
+     }
+
+     .cajaAlCentroW700{ 
+         margin:0 auto 0 auto;
+         left: 200px;
+         width: 700px;
+     }
+     .DosCajasHorizontales{
+        margin:0 auto 0 auto;
+        left: 200px;
+        width: 90%;
+        display: table;
+     }
+
+    .position{
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid green;
+    }
+
+    .propiedadPosition_Fixed{
+        width: 200px;
+        height: 200px;
+        background: #aaa;
+        /* deja fijo al elemento en la pantalla */
+        position: fixed; 
+        /* padding-left:10px */
+    }
+
+    .rectantulo{
+        width: 300px;
+        height: 300px;
+        background: red;
+    }
+
+
+    .positionleft50{left:50px;}
+    .positiontop50{top:50px;}
+    .positionright50{right: 50px;}
+    .positionbottom50{bottom: 50px;}
+
+
+    .propiedadPosition_Relative{
+        width: 200px;
+        height: 200px;
+        left:200px;
+        background: rgb(190, 199, 150);
+        /* deja fijo al elemento en la pantalla */
+        position: relative; 
+        /* padding-left:10px */
+    }
+
+    .checkboxNumberCss{
+        width: 60px;
+    }
+
+    .inputNumberCss{
+        width: 60px;
+    }
+
+    .circulo{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: red;
+        position:absolute;
+    }
+
+
+
+    .sectionpositionrelative{
+        border:2px dashed steelblue;
+        width: 500px;
+        height: 400px;
+        margin: 5px  auto;
+
+    }
+    .unopositionrelative{
+        border-radius: 5px;
+        color: #444;
+        font-size: 2.8em;
+        font-weight: bold;
+        line-height: 1.5;
+        padding: .5em;
+        text-align: center;
+        background: rgba(173, 216, 230 , .7);
+
+    }
+    /* POSITION ABSOLUTE******************************************** */
+    .sectionpositionabsolute{
+        border:2px dashed steelblue;
+        /* NO DECLARAMOS ANCHO NI ALTO  para que tales datos dependan del hijo
+        y si el hijo es position absolute este padre se hara tan pequeño para qeu quepa 
+        el padding si el padre tuviera padding*/
+        width: 500px;
+        height: 400px;
+        padding: 2em;
+        margin: 5px  auto;
+    }
+    .unopositionabsolute{
+        border-radius: 5px;
+        color: #444;
+        font-size: 2.8em;
+        font-weight: bold;
+        line-height: 1.5;
+        padding: .5em;
+        text-align: center;
+        /* background: rgba(173, 216, 230 , .7); */
+        background: rgba(230, 173, 222, 0.7);
+        
+        left: 0px;
+        /* top: 0px; */
+        }
+
+    /* ****************************************************** */
+     /* le agregamos esta clase al body para poder hacer scrool */
+    .padding-bottom200em{ 
+        padding-bottom:200em;
+    };
+
+
+

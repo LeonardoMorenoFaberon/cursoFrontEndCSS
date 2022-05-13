@@ -1,0 +1,182 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estlosCss.css">
+    <title>Document</title>
+</head>
+<body class="padding-bottom200em">
+    <h1>CSS</h1>
+    <nav class="nav">
+        <ul class="ulencabezado">
+            <li>option1</li>
+            <li>option2</li>
+            <li>option3</li>
+            <li>option4</li>
+            <li>option5</li>
+        </ul>
+    </nav>
+
+    <div><br><br><br>
+        <strong>
+           El sticky aun no lo implementado asi  que les pido paciencia por el momento  lo intersante esta al fonde de esta pagina asi q ve para alla.
+       </strong> 
+       <br><br><br>
+    </div>
+
+    <div class="m-20 brd1pxsolidgreen margin60">
+        <h1 id="iddiplayvisibility">aca mostramos como esta la imagen</h1>
+        <button id="buttonImagen" class="height50px">boton Ocultar la Imagen</button>
+        <div class="conteiner">
+            <img  id="imagen1" src="https://picsum.photos/640/360" alt="">
+        <p  class="conteiner heigth360">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illo, omnis ab ut excepturi nisi eveniet. Doloribus id in ratione, perspiciatis dignissimos laborum optio minima rem rerum unde alias necessitatibus!</p>
+
+        </div>
+    </div>
+
+    
+
+         <div class="cajaAlCentro brd1pxsolidgreen">
+            <h2>Ejemplo EdTeam Propiedades CSS</h2>
+            <p>https://www.youtube.com/watch?v=eNGa5_yxmUw&ab_channel=EDteam</p> <br>
+            <p>https://www.youtube.com/watch?v=fQmdNY8u2F4&ab_channel=EDteam</p> <br>
+            <ul class="ul_vertical"><h3><em class="emresaltado">POSITION </em>CSS tiene las siguientes propiedades:</h3>
+                <p><em class="emresaltado">Obs:</em> El ancho de un elemento posicionado esta definido automaticamente por su contenido 
+                    osea un padre con position  automaticamente mide lo necesario para que le quepa su hijo,
+                    pudiendo variar si le declaramos a ese padre width:xxpx;  y su    height: yypx
+                </p>
+                <li class="li_vertical"><em class="emresaltado">static</em> <p class="m-l10">
+                                                                                no tiene efecto en el flujo y viene por DEFAULT
+
+
+                                                                            </p></li>
+                <li class="li_vertical"><em class="emresaltado"> Relative</em> 
+                                                                            <p class="m-l10">
+                                                                                El Navegador recuerda donde estaba el elmento
+                                                                                al cargar la pagina y desde esa posicion reacciona a left , top , right, bottom 
+                                                                                una <em>muy buena practica</em> es que tus contenedores tengan un alto declarado muy aparte del 
+                                                                                height-min que pudieras ponerle de lo contrario no te sirve para usar %  (top:50% como de que dice el navegador si no tiene alto declarado)
+                                                                                <br>
+                                                                                <br>
+                                                                                Un truco para centrar elementos en altura con % es : <br> <br>
+                                                                                .uno{
+                                                                                <p class="m-l30 ">
+                                                                                    position:relative;          <br>
+                                                                                    top:50%;                    <br>
+                                                                                    transform:translateY(-50%); <br>
+                                                                                </p>
+                                                                                }                               <br> <br>
+                                                                            </p></li>
+                <li class="li_vertical"><em class="emresaltado"> Absolute</em> 
+                                                                            <p class="m-l10">
+                                                                                Si el padre de un componente Absolute no tiene definidos ni width, 
+                                                                                ni height , entonces su tamanio venia dependiendo del hijo  hasta qeu el 
+                                                                                hijo sea absolute en ese caso el padre se hace minimo perdiendo su tamanio 
+                                                                                tan solo para guardar
+                                                                                padding propio <br> <br>
+                                                                                <em class="emresaltado">Obs:</em> 
+                                                                                las coordenadas se calculan en funcion del primer ancestro posicionado
+                                                                                ancestro con position (relative , absolute o fixed) , si no hay padres pues el body
+
+                                                                            </p></li>
+                <li class="li_vertical"><em class="emresaltado"> Fixed</em> (este casi no se usaba hace 6 años ) <p class="m-l10"></p></li>
+                <li class="li_vertical"><em class="emresaltado"> z-index</em> <p class="m-l10"></p></li>
+            </ul><br>
+        </div>
+
+         <section class="sectionpositionrelative">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolores, 
+                 labore magni laudantium cum aspernatur porro voluptatum neque omnis. 
+                 Quam odio nulla vel necessitatibus nobis dolor ut tenetur saepe optio!</p>
+             <div class="unopositionrelative">1</div>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum fugiat 
+                 veritatis doloribus iure mollitia quia dolore vero maxime eius distinctio 
+                 at molestias adipisci, voluptatem esse eveniet minima unde voluptas nulla!</p>
+         </section>
+
+         <br><br>
+         <div id="contenedorRadiobotonesParaEjemploAbsolute" class="cajaAlCentroW700 displayFlex brd1pxsolidgreen">
+
+
+                <p class="DosCajasHorizontales brd1pxsolidgreen"> Position para el  hijo<br>
+        
+                    <label for="radioPositionStatic">
+                        <input id="radioPositionStatic" type="radio" name="positionHijo"  value ="static"/>position : static
+                    </label> <br>
+                    <label for="radioPositionAbsolute">
+                        <input id="radioPositionAbsolute" type="radio" name="positionHijo" value="absolute">position : absolute
+                    </label> <br>
+                    <label for="radioPositionRelative">
+                        <input id="radioPositionRelative" type="radio" name="positionHijo" value="relative">position : relative</input>
+                    </label> <br>
+                    <label for="radioPositionFixedHijo">
+                        <input id="radioPositionFixedHijo" type="radio" name="positionHijo" value="relative">position : fixed</input>
+                    </label> <br>
+
+                    <!-- radioPositionFixedHijo -->
+
+                    <!-- label[for=relative]>input[type=radio][name=position][id=relative][value=relative]{static}-->
+                </p>
+
+
+                <p class="DosCajasHorizontales brd1pxsolidgreen DosEnUno">  Position para el padre <br>
+               
+                    <label for="radioPositionStaticPadre">
+                        <input type="radio" id="radioPositionStaticPadre" name="positionPadre" value="static">position : static</input>
+                    </label> <br>
+                    <label for="radioPositionAbsolutePadre">
+                        <input type="radio" id="radioPositionAbsolutePadre" name="positionPadre" value="absolute">position : absolute</input>
+                    </label> <br> 
+                    <label for="radioPositionRelativePadre">
+                        <input type="radio" id="radioPositionRelativePadre" name="positionPadre" value="relative">position : relative</input>
+                    </label> <br>  
+                    <label for="radioPositionFixedPadre">
+                        <input type="radio" id="radioPositionFixedPadre" name="positionPadre" value="fixed">position : fixed</input>
+                    </label> <br>
+                    <!-- label[for=radioPositionStaticPadre]>input#radioPositionStaticPadre[type=radio][name=position][value=static]{static} -->
+                    <br>
+                    <label for="radioDisplayTable">
+                        <input type="radio" id="radioDisplayTable" name="display">display : table
+                    </label> <br>
+                    <label for="radioDisplayBlock">
+                        <input type="radio" id="radioDisplayBlock" name="display">display : block
+                    </label><br>
+                    <br><br>
+                    <label for="height">
+                        <input type="checkbox" id="chkbxheight" value="height" class="checkboxNumberCss" checked>height: </input>
+                    </label>  <input type="number" class="inputNumberCss" id="inputHeightNumber" value="400"> px;<br>
+                    <label for="width">
+                        <input type="checkbox" id="chkbxwidth" value="width" class="checkboxNumberCss" checked>width:    </input> 
+                    </label>  <input type="number" class="inputNumberCss" id="inputWidthNumber" value="500"> px;<br>
+                    <!-- label[for=height]>input[type=checkbox][id=chkbxheight][value=height]{height:} -->
+
+                </p>
+
+        </div>
+        <div class="cajaAlCentro brd1pxsolidgreen">
+            
+            <p>
+                .unopositionabsolute{ <br>
+                    <p id="idshowcssunopositionabsolute" class="m-l30">
+                        border-radius: 5px;  <br>
+                        color: #444;           <br>
+                        font-size: 2.8em;       <br>
+                        font-weight: bold;      <br>
+                        line-height: 1.5;        <br>
+                        padding: .5em;              <br>
+                        text-align: center;     <br>
+                        background: rgba(173, 216, 230 , .7); <br>
+                    </p>
+                    } <br>
+            </p>
+        </div>
+         <section id="idSectionPosition" class="sectionpositionabsolute">
+             <div id="idUnoPosition" class="unopositionabsolute">
+                 1
+             </div>
+         </section>
+
+<script src="./javascript.js"></script>
+</body>
+</html>
