@@ -6,36 +6,67 @@
     box-sizing: border-box;
     font-family: 'Poppins';
 }
-
-body{
-    background-color: papayawhip;
+html{
+    font-size: 62.5%;
 }
-
-header{
-    /* height: 100%; */
-    position: relative;
-    width: 100%;
-    padding: 5px;
+body{
     background-color: indianred;
 }
-
-ul{
+.main--container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.principal--title{
+    text-align: center;
+    font-size: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.second--title{
+    text-align: center;
+    font-size: 3rem;
+}
+.principal--text{
+    text-align: center;
+    font-size: 1.8rem;
+    max-width: 80ch;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+.section--container{
+    width: 100%;
+    height: auto;
+}
+.items--list{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 2rem;
+    justify-items: center;
+    margin-bottom: 10rem;
+}
+.item a{
+    width: 28rem;
+    height: 8rem;
+    display: inline-block;
+    font-size: 1.8rem;
+    text-align: center;
+    cursor: pointer;
+    padding: 2rem 7px;
+    border:1px solid white;
+    background-color: salmon;
+    border-radius: 7px; 
+    color: white;
+    text-decoration: none;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 li{
-    width: 200px;
     list-style: none;
-    /* display: inline-block; */
-    margin: 10px;
-    padding: 5px 7px;
-    border:1px solid white;
-    border-radius: 7px;
-    background-color: salmon;
 }
-
-
-li:hover{
+.item a:hover{
     /* display: inline-block;
     margin: 10px;
     padding: 5px 7px;
@@ -43,8 +74,18 @@ li:hover{
     border-radius: 7px; */
     background-color: rgb(235, 88, 72);
 }
-a{
-    margin-top: 20px;
-    color: white;
-    text-decoration: none;
+@media (min-width: 600px) {
+    .items--list{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
+@media (min-width: 900px) {
+    .items--list { grid-template-columns: repeat(3, 1fr); }
+  }
+.footer-section{
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 4rem;
+} 
