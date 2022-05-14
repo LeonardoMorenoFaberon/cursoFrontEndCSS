@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrones de maquetación</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a  class="header__arrow" href="../index.html"><img src="./assets/img/left-arrow.png" alt="arrow"></a>
+        <h1 class="header__title">Patrones de Maquetación</h1>
+    </header>
+    <main class="main">
+        <section class="Main__container">
+            <h2 class="Main__title">Mosty Fluid</h2>
+            <p class="Main__description">El patrón Mostly fluid consiste, inicia con columnas verticales que se van ajustando en la medida que se va aumentando el tamaño de pantalla. Dependiendo el tamaño de pantalla, se puede amplia el ancho de las columnas o se agregan nuevas.</p>
+            <figure class="Main__image example-images">
+                <img src="./assets/img/image-6.png" alt="Mosty Fluid">
+                <img src="./assets/img/Mosty/Mosty Fluid.gif" loading="lazy" alt="gif of mosty fluid"></img>
+            </figure>
+            <div class="Main__image--container">
+                <figure class="Main__image html-image">
+                    <h3>HTML</h3>
+                    <img src="./assets/img/Mosty/hmtl-Mosty.png" loading="lazy"  alt="html-code">
+                </figure>
+                <figure class="Main__image mobile-image">
+                    <h3>Mobile</h3>
+                    <img src="./assets/img/Mosty/Mobile.png"  loading="lazy"  alt="css--code-mobile">
+                </figure>
+                <figure class="Main__image tablet-image">
+                    <h3>Tablet</h3>
+                    <img src="./assets/img/Mosty/Tablet.png" loading="lazy"  alt="css--code-tablet">
+                </figure>
+                <figure class="Main__image desktop-image">
+                    <h3>Desktop</h3>
+                    <img src="./assets/img/Mosty/Desktop.png"  loading="lazy" alt="css--code-desktop">
+                </figure>
+            </div>
+        </section>
+        <section>
+            <h2>Layout shifter CSS</h2>
+            <p>El patrón Layout shifter es el más adaptable, ya que posee varios puntos de interrupción en diferentes anchos de pantalla.</p>
+            <p>La clave para este diseño es el desplazamiento del contenido, en lugar de su reprocesamiento y colocación debajo de otras columnas. Debido a las diferencias significativas entre cada punto de interrupción principal, es más complejo de mantener, y es posible que se deban realizar cambios dentro de los elementos, no solo en el diseño de contenido general.</p>
+        </section>
+        <section>
+            <h2>Column drop</h2>
+            <p>En el caso de los diseños con varias columnas de ancho completo, durante el proceso de colocación de columnas éstas únicamente se colocan de forma vertical debido a que el ancho de la ventana es demasiado reducido para el contenido.</p>
+        </section>
+    </main>
+    <footer>
+        <p class="footer-section">Code with ❤️ by community</p>
+    </footer>
+</body>
+</html>
