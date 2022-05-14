@@ -13,8 +13,11 @@ body{
     background-color: var(--background-color);
     font-family: 'Poppins';
     padding: 0 4rem;
-    color: white;
     font-size: 1.6rem;
+    color: white;
+}
+h1, h2 {
+    color: black;
 }
 html{
     font-size: 62.5%;
