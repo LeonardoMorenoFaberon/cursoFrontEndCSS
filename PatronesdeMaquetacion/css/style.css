@@ -32,12 +32,17 @@ body{
 }
 .Main__image{
     min-width: 200px;
-    max-width: 480px;
     height: auto;
-    margin: 0 auto;
+}
+.example-images{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .Main__image img {
     margin-top: 20px;
+    max-width: 480px;
     width: 100%;
 }
 .Main__image--container{
@@ -53,6 +58,7 @@ body{
         grid-template-columns: 50% 50%;
         grid-template-rows: auto;
         gap: 10px;
+        justify-items: center;
     }
     .html-image{
         grid-column: 1;
