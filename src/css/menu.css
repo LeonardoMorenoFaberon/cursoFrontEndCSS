@@ -12,6 +12,11 @@ html{
 body{
     background-color: indianred;
 }
+a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+}
 .main--container{
     max-width: 1500px;
     margin: 0 auto;
