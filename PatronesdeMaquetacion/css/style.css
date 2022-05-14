@@ -1,5 +1,5 @@
-@import '/global.css';
-
+@import '../../global.css';
+/* 
 :root{
     --height_container:150px;
     --height_items:100px;
@@ -10,8 +10,8 @@
     --color_marronoso:#5c2232;
 }
 h1,h2{
-    /* color: var(--color_banquillo); */
-}
+    color: var(--color_banquillo); 
+}*/
 /* Header*/
 body{
     text-align: center;
