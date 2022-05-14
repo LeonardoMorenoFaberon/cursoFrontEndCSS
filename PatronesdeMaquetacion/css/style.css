@@ -1,21 +1,7 @@
 @import '../../global.css';
-/* 
-:root{
-    --height_container:150px;
-    --height_items:100px;
 
-    --color_banquillo:#F6E7D8;
-    --color_naranjoso:#F68989;
-    --color_ladrilloso:#C65D7B;
-    --color_marronoso:#5c2232;
-}
-h1,h2{
-    color: var(--color_banquillo); 
-}*/
-/* Header*/
 body{
     text-align: center;
-    /* background-color: var(--color_marronoso); */
 }
 .header{
     padding: 20px 0px;
