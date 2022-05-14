@@ -1,0 +1,19 @@
+@import '/global.css';
+
+/* Header*/
+
+.header{
+    padding: 20px;
+    text-align: center;
+}
+.Main__description{
+    margin: 20px 0;
+    text-align: center;
+}
+.Main__image{
+    min-width: 200px;
+    margin: 0 auto;
+}
+.Main__image img {
+    width: 100%;
+}
