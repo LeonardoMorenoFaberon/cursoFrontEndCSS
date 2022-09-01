@@ -1,8 +1,13 @@
-# Guia CSS
+# Guía CSS
 [DEMO](https://leonardomorenofaberon.github.io/cursoFrontEndCSS/)
-# la intencion del proyecto:
-##### Dste proyecto es mas alla de solo apnutar cosas del curso , usar htmol y css para hacer apuntes sobre html y css precisamente.
-##### la intencion es que practicar lo aprendido escribiendolo , y tener los apuntes tan INTERACTIVOS como nos sea posible diseñarlo. 
+
+## Este proyecto va más allá de solo tener los apunte y ejercicios del [Curso de Frontend Developer ](https://platzi.com/cursos/frontend-developer/).
+## La intención es que demás desarrolladores vean el trabajo en modo apunte-interactivo, puedan a portar a él por medio de GitHub, darnos feedback, y que tambien puedan acceder a éste repositorio cuando quieran recordar o ver como era la sintaxis de alguno de los elementos agregados al índice del proyecto.
+
+### Algunos de los devs de éste proyecto: 
+* [Leonardo Faberón](https://github.com/LeonardoMorenoFaberon)
+* [Xavier López](https://github.com/xavicodeer)
+* [Jonnier Martínez](https://github.com/jonniermartinez)
 
 
 
